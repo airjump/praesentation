@@ -54,6 +54,25 @@ class: center, middle
 
 ![UAZ](https://farm3.staticflickr.com/2884/10793944283_3079e1ce2e_c.jpg)
 
+---
+
+```
+rackdiag {
+  // define height of rack
+  8U;
+
+  // define description of rack
+  description = "Kommunikationsbox";
+
+  // define rack units
+  1: USV [2U];   // define height of unit
+  3: Server [2U];
+  5: Telefonanlage [2U];
+  7: L3 Swicth;
+  8: Steckdosenleiste;
+}
+```
+
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
     </script>
